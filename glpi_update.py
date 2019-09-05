@@ -9,7 +9,7 @@ def parse_apt_log():
         str: Log output
     """
     # La fichier de log APT à parser
-    APT_LOG_FILE = "/var/log/apt/history.log
+    APT_LOG_FILE = "/var/log/apt/history.log"
 
     # les paquets mis à jour sont  situés dans un bloc de 4 lignes
     today = datetime.datetime.today().strftime('%Y-%m-%d')
