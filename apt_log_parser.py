@@ -34,5 +34,5 @@ def parse_apt_log():
     return log_output
 
 if __name__ == "__main__":
-    pass
+    print(parse_apt_log())
     

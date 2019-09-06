@@ -34,9 +34,4 @@ if __name__ == "__main__":
     print(log[0])
 
 
-class AptLogEvent(object):
-    def __init__(self, log):
-        self.start_date = log[0].strip("Start-Date: ")
-        self.action = log[1].strip("Commandline: ")
-        self.paquets = log[2].strip("")
-        return
+
